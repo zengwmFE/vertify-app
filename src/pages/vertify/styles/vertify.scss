@@ -1,0 +1,40 @@
+.verify-code {
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+  .verify-code-input {
+    position: fixed;
+    // left: 0;
+    // top: 0;
+    width: 100px;
+    // transform: translateX(-20000000px); // #todo
+    border: 1px solid red;
+    height: 100px;
+    // opacity: 0;
+    bottom: 0;
+  }
+
+  .code-wrap {
+    display: flex;
+    overflow: hidden;
+    min-height: 88rpx;
+    padding: 0 10rpx;
+    text-align: center;
+
+    justify-content: space-between;
+
+    .code-item {
+      .code-item-text {
+        display: block;
+        box-sizing: border-box;
+        width: 68px;
+        height: 88px;
+        border-bottom: 2px #d9d9d9 solid;
+        color: #000;
+        font-size: 60px;
+        line-height: 88px;
+        text-align: center;
+      }
+    }
+  }
+}
